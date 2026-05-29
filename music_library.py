@@ -7,7 +7,7 @@ class MusicLibrary:
         self.members = {}
 
     def add_album(self, album):
-        self.albums[album.album_id] = album
+        self.albums[album.item_id] = album
         print(f"Album '{album.title}' added.")
 
     def display_albums(self):
